@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1050px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid  rgb(60, 89, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    /* padding-bottom: 8px; */
+    /* margin-bottom: 300px; */
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.desc-head{
+    margin: 15px 0;
+}
+
+.desc-body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 226, 224);
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+.desc-body div{
+    margin: 2px;
+    display: flex;
+}
+
+
+.desc-body div label{
+    display: inline-block;
+    width: 80px;
+}
+
+.desc-body div input{
+    width: 700px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    border-bottom: 1px solid white;
+    padding: 3px 5px;
+    margin-right: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#lName , #fName, #age, #gender, #subject{
+    width: 250px;
+}
+.desc-body div input:active{
+    border: 1px solid rgb(60, 89, 255);
+}
+.desc-body div input:hover {
+    border: 1px solid rgb(60, 89, 255);
+}
+::placeholder:hover{
+    color: rgb(60, 89, 255);
+}
+
+
+.btn{
+    padding: 10px 15px;
+    margin: 5px auto;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(60, 89, 255);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(60, 89, 255);
+}
